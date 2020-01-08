@@ -1,0 +1,10 @@
+@import '../../globals';
+
+.SignInForm {
+  .paper--background {
+    @extend %background--white;
+  }
+  .paper--padding {
+    @extend %padding--small;
+  }
+}

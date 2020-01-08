@@ -1,0 +1,41 @@
+{
+  "short_name": "MMD",
+  "name": "Mental Model Dictionary",
+  "description": "The Mental Model dictionary provides entries to use for your lattice work of mental models. By utilizing these concepts from different disciplines, you can better solve problems and rationalize how the world works.",
+  "icons": [
+    {
+      "src": "icon-24x24.png",
+      "sizes": "24x24",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-48x48.png",
+      "sizes": "24x24",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-94x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-480x480.png",
+      "sizes": "480x480",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#00838F",
+  "background_color": "#ffffff"
+}

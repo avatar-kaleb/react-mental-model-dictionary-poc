@@ -1,0 +1,14 @@
+@import '../../globals';
+
+.AboutMentalModels {
+  justify-content: center;
+  @extend %transition-opacity-750;
+
+  .paper--background {
+    @extend %background--white;
+  }
+
+  .paper--padding {
+    @extend %padding--small;
+  }
+}

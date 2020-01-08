@@ -1,0 +1,13 @@
+@import '../../globals';
+
+.AboutProject {
+  @extend %transition-opacity-750;
+  justify-content: center;
+
+  .paper--background {
+    @extend %background--white;
+  }
+  .paper--padding {
+    @extend %padding--small;
+  }
+}

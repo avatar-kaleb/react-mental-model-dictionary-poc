@@ -1,0 +1,17 @@
+@import '../../globals';
+
+.MentalModelViewer {
+  .paper--background {
+    @extend %background--white;
+  }
+
+  .paper--margin {
+    @extend %margin--auto;
+  }
+
+  .paper--padding {
+    @extend %padding--small;
+  }
+
+
+}

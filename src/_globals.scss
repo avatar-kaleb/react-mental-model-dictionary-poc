@@ -1,0 +1,103 @@
+@import 'react-md/src/scss/react-md';
+
+$md-primary-color: $md-cyan-800;
+$md-primary-color--light: #4fb3bf;
+$md-primary-color--dark: #005662;
+
+$md-secondary-color: $md-red-a-400;
+$md-secondary-color--light: #8187ff;
+$md-secondary-color--dark: #0031ca;
+
+
+p {
+  max-width: 1025px;
+}
+
+// ---- Backgrounds ----
+// TODO change these and extend for BEM instead
+%background--white {
+  background-color: white;
+}
+
+%background--secondary {
+  background-color: $md-secondary-color
+}
+
+%background-secondary--light {
+  background-color: $md-secondary-color--light
+}
+
+%background-secondary--dark {
+  background-color: $md-secondary-color--dark
+}
+
+%background--primary {
+  background-color: $md-primary-color
+}
+
+%background-primary--light {
+  background-color: $md-primary-color--light
+}
+
+%background-primary--dark {
+  background-color: $md-primary-color--dark
+}
+
+// ---- Sizing ----
+
+%height--100 {
+  height: 100%;
+}
+
+%margin--auto {
+  margin: auto;
+}
+
+%margin--small {
+  margin: 1em;
+}
+
+%margin--med {
+  margin: 2em;
+}
+
+%margin--large {
+  margin: 3em;
+}
+
+%margin-bottom--small {
+  margin-bottom: 1em;
+}
+
+%padding--small {
+  padding: 1em;
+}
+
+// ---- Page Transitions TODO: Unused with page flicker issue ----
+
+%transition-opacity-750 {
+  transition: opacity .75s ease-in 0s;
+}
+
+// .transition-appear {
+//   opacity: 0;
+// }
+
+// .transition-appear.transition-appear-active {
+//     opacity: 1;
+// }
+
+// .transition-leave {
+//     opacity: 1;
+// }
+
+// .transition-leave.transition-leave-active {
+//     opacity: 0;
+// }
+
+
+// removed transitioning for now because of page flickers
+// when time allows, change this back to 0 and figure it out
+// .transition-item {
+//   opacity: 1;
+// }

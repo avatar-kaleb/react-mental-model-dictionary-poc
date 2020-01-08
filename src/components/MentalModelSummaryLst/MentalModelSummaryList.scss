@@ -1,0 +1,26 @@
+@import '../../globals';
+
+.MentalModelSummaryList {
+  .cell-margin-bottom--small {
+    @extend %margin-bottom--small;
+  }
+
+
+  // Center on mobile
+  @media (min-width: calc(#{$md-tablet-min-width - 1})) {
+    .grid-content {
+      justify-content: center;
+    }
+  }
+
+  // stretch on anything larger than tablets
+  @media (min-width: $md-tablet-min-width) {
+    .grid-content {
+      justify-content: stretch;
+    }
+  }
+}
+
+.grid--width {
+  width: 100%;
+}

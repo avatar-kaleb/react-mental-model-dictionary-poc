@@ -1,0 +1,44 @@
+@import '../../globals';
+
+.card-height--100 {
+  @extend %height--100;
+}
+
+.cell-margin-bottom--small {
+  @extend %margin-bottom--small;
+}
+
+.card-actions--alignment {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: calc(#{$md-desktop-min-width + 1})) {
+  .card-text--min-height {
+    min-height: 125px;
+  }
+}
+
+@media (min-width: calc(#{$md-mobile-min-width + 1})) and (max-width: $md-desktop-min-width) {
+  .card-text--min-height {
+    min-height: 105px;
+  }
+
+  .card-text--padding {
+    padding: 12px;
+  }
+}
+
+@media (max-width: $md-mobile-min-width) {
+  .card-text--min-height {
+    min-height: 75px;
+  }
+
+  .card-text--padding {
+    padding: 12px;
+  }
+}
+
+
